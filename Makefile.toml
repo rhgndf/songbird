@@ -24,7 +24,7 @@ command = "cargo"
 dependencies = ["format"]
 
 [tasks.build-variants]
-dependencies = ["build", "build-gateway", "build-driver", "build-simd"]
+dependencies = ["build", "build-gateway", "build-driver"]
 
 [tasks.check]
 args = ["check", "--features", "full-doc"]
